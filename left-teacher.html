@@ -1,0 +1,49 @@
+﻿<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>侧边栏</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<link href="./style.css" rel="stylesheet" />
+<SCRIPT LANGUAGE="JavaScript"></SCRIPT>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript"></script>
+
+</head>
+<body>
+<div class="border">
+  <div class="sidebox">
+    <h3><span>学院公告</span></h3>
+    <div class="notice">
+      <marquee direction="up" height="100">
+        <p>欢迎访问福州大学经济与管理学院教育管理系统</p>
+        <p>经管改变世界，我们是经管人！</p>
+      </marquee>
+    </div>
+  </div>
+  </div>
+  <div class="sidebox1">
+    <h3><span>信息一览</span></h3>
+    <ul>
+      <li><a href="./jiaoshi/index-teacher-lecture2.html" target="_blank">任课课程</a></li>
+      <li><a href="./jiaoshi/index-teacher-pushgrade.html" target="_blank">录入任课课程成绩</a></li>
+      <li><a href="./jiaoshi/index-teacher-searchgrade.html" target="_blank">查询任课课程成绩</a></li>
+    </ul>
+  </div>
+</div>
+<script>
+  window.onload= function(){
+      var oimageField1= document.getElementById("imageField1");
+      var oMuser = document.getElementById("muser");
+      var oPassword= document.getElementById("mpassword");
+      oimageField1.onclick = function(){
+      if(oMuser.value == "1"){
+          url= "index - 副本.html";
+        }else if(oTxt.value == "哥哥"){
+          url = "b.html";
+        }
+       window.location.href= url;
+      }
+    }
+</script>
+</body>
+</html>

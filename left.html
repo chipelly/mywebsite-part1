@@ -1,0 +1,75 @@
+﻿<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>侧边栏</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<link href="./style.css" rel="stylesheet" />
+<SCRIPT LANGUAGE="JavaScript"></SCRIPT>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript"></script>
+
+</head>
+<body>
+<div class="border">
+	<div class="sidebox">
+		<h3><span>学院公告</span></h3>
+		<div class="notice">
+			<marquee direction="up" height="100">
+				<p>欢迎访问福州大学经济与管理学院教育管理系统</p>
+				<p>经管改变世界，我们是经管人！</p>
+			</marquee>
+		</div>
+	</div>
+	<div class="sidebox">
+     <form action="and.html" target="_top">
+        <table style="padding-top:10px;" width="96%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+              <td width="31%" height="30" align="right">账 号：</a></td>
+             <td width="69%"><input name="muser" type="text" class="Input" id="muser" style='width: 160px;'></td>
+            </tr>
+            <tr>
+              <td height="30" align="right">密   码：</td>
+              <td><input type="password" name="mpassword" class="Input" id="mpassword" maxlength="20" autocomplete="off" style="width: 160px"></td>
+            </tr>
+            <tr>
+              <td height="40" colspan="2" style=" text-align:center;">
+              <input name="imageField1" type="image" class="dl2" id="imageField1" src="images/ct.jpg" align="middle"> &nbsp;&nbsp;&nbsp;&nbsp;
+
+              <input name="imageField1" type="image" class="dl1" id="imageField1" src="images/dl.jpg" align="middle">
+           </td>
+            </tr>
+          </tbody>
+        </table>
+         </form>
+    </div>
+          <TABLE BORDER=1 WIDTH=460>
+          </TABLE>
+  </div>
+	<div class="sidebox1">
+		<h3><span>相关链接</span></h3>
+		<ul>
+			<li><a href="http://news.ittime.com.cn/" target="_blank">IT时代周刊</a></li>
+			<li><a href="http://www.fzu.edu.cn/" target="_blank">福州大学</a></li>
+			<li><a href="http://www.lib.fzu.edu.cn/" target="_blank">福州大学图书馆</a></li>
+			<li><a href="http://www.it168.com/" target="_blank">IT168</a></li>
+			<li><a href="http://www.csdn.net/" target="_blank">全球最大中文IT社区CSDN</a></li>
+		</ul>
+	</div>
+</div>
+<script>
+  window.onload= function(){
+      var oimageField1= document.getElementById("imageField1");
+      var oMuser = document.getElementById("muser");
+      var oPassword= document.getElementById("mpassword");
+      oimageField1.onclick = function(){
+      if(oMuser.value == "1"){
+          url= "index - 副本.html";
+        }else if(oTxt.value == "哥哥"){
+          url = "b.html";
+        }
+       window.location.href= url;
+      }
+    }
+</script>
+</body>
+</html>
